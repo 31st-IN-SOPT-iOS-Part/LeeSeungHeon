@@ -13,6 +13,7 @@
 		D62DEFEC28ED332A00E311EF /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DEFEB28ED332A00E311EF /* UIView+.swift */; };
 		D62DEFF328ED363800E311EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62DEFF228ED363800E311EF /* LaunchScreen.storyboard */; };
 		D62DEFF528ED372100E311EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62DEFF428ED372100E311EF /* Main.storyboard */; };
+		D6B7ABBD28F0169300677959 /* BoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7ABBC28F0169300677959 /* BoundsViewController.swift */; };
 		D6E47C0328ED2180007A5108 /* KakaoLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E47C0228ED2180007A5108 /* KakaoLoginViewController.swift */; };
 		D6F12CE628EC23FF0014BA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F12CE528EC23FF0014BA0A /* AppDelegate.swift */; };
 		D6F12CE828EC23FF0014BA0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F12CE728EC23FF0014BA0A /* SceneDelegate.swift */; };
@@ -27,6 +28,7 @@
 		D62DEFEB28ED332A00E311EF /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		D62DEFF228ED363800E311EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D62DEFF428ED372100E311EF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D6B7ABBC28F0169300677959 /* BoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundsViewController.swift; sourceTree = "<group>"; };
 		D6E47C0228ED2180007A5108 /* KakaoLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginViewController.swift; sourceTree = "<group>"; };
 		D6F12CE228EC23FF0014BA0A /* assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F12CE528EC23FF0014BA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		D62DEFDA28ED23BC00E311EF /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				D6B7ABBB28F0166100677959 /* Bounds */,
 				D62DEFE228ED243800E311EF /* SignupComplete */,
 				D62DEFE028ED241A00E311EF /* Signup */,
 				D62DEFDF28ED241200E311EF /* Login */,
@@ -130,6 +133,14 @@
 			children = (
 			);
 			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		D6B7ABBB28F0166100677959 /* Bounds */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7ABBC28F0169300677959 /* BoundsViewController.swift */,
+			);
+			path = Bounds;
 			sourceTree = "<group>";
 		};
 		D6E47C0428ED2205007A5108 /* Applitcation */ = {
@@ -293,6 +304,7 @@
 				D6F12CE628EC23FF0014BA0A /* AppDelegate.swift in Sources */,
 				D6F12CE828EC23FF0014BA0A /* SceneDelegate.swift in Sources */,
 				D62DEFEA28ED24CB00E311EF /* KakaoSignupCompleteViewController.swift in Sources */,
+				D6B7ABBD28F0169300677959 /* BoundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

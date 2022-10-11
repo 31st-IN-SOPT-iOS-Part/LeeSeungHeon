@@ -20,7 +20,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 let window = UIWindow(windowScene: windowScene)
                 window.overrideUserInterfaceStyle = UIUserInterfaceStyle.light
                 
-                let rootViewController: UIViewController = KakaoLoginViewController()
+                // let rootViewController: UIViewController = KakaoLoginViewController()
+                let rootViewController: UIViewController = BoundsViewController()
+                
                 let navigationController: UINavigationController = UINavigationController(rootViewController: rootViewController)
                 
                 window.rootViewController = navigationController
